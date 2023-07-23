@@ -1,0 +1,137 @@
+{
+	"W": {
+		"W": [
+			"char_113_cqbw",
+			"DEFAULT",
+			""
+		],
+		"Fugue": [
+			"char_113_cqbw_epoque_7",
+			"EPOQUE",
+			"#868E96"
+		]
+	},
+	"Phantom": {
+		"Focus": [
+			"char_250_phatom_sale_4",
+			"TEST_COLLECTION_2022",
+			"#720E10"
+		]
+	},
+	"Lee": {
+		"Trust Your Eyes": [
+			"char_322_lmlee_witch_3",
+			"WITCH_FEAST",
+			"#5F8444"
+		]
+	},
+	"Surtr": {
+		"Colorful Wonderland CW03": [
+			"char_350_surtr_summer_9",
+			"CORAL_COAST",
+			"#79D0FF"
+		]
+	},
+	"Rosmontis": {
+		"Rosmontis": [
+			"char_391_rosmon",
+			"DEFAULT",
+			""
+		],
+		"Become Anew": [
+			"char_391_rosmon_epoque_17",
+			"EPOQUE",
+			"#C6C3E1"
+		]
+	},
+	"Passenger": {
+		"Dream in a Moment": [
+			"char_472_pasngr_epoque_17",
+			"EPOQUE",
+			"#A26B66"
+		]
+	},
+	"Skadi the Corrupting Heart": {
+		"Skadi the Corrupting Heart": [
+			"char_1012_skadi2",
+			"DEFAULT",
+			""
+		],
+		"SUBLIMATION": [
+			"char_1012_skadi2_boc_4",
+			"BLOODLINE_OF_COMBAT",
+			"#1E2A33"
+		]
+	},
+	"Ch'en the Holungday": {
+		"Ch'en the Holungday": [
+			"char_1013_chen2",
+			"DEFAULT",
+			""
+		]
+	},
+	"Nearl the Radiant Knight": {
+		"Nearl the Radiant Knight": [
+			"char_1014_nearl2",
+			"DEFAULT",
+			""
+		],
+		"Relight": [
+			"char_1014_nearl2_epoque_17",
+			"EPOQUE",
+			"#80ACA6"
+		]
+	},
+	"Specter the Unchained": {
+		"Specter the Unchained": [
+			"char_1023_ghost2",
+			"DEFAULT",
+			""
+		]
+	},
+	"Gavial the Invincible": {
+		"Gavial the Invincible": [
+			"char_1026_gvial2",
+			"DEFAULT",
+			""
+		]
+	},
+	"Texas the Omertosa": {
+		"Texas the Omertosa": [
+			"char_1028_texas2",
+			"DEFAULT",
+			""
+		]
+	},
+	"Nian": {
+		"Nian": [
+			"char_2014_nian",
+			"DEFAULT",
+			""
+		],
+		"Unfettered Freedom": [
+			"char_2014_nian_nian_4",
+			"NIAN",
+			"#7E8479"
+		]
+	},
+	"Dusk": {
+		"Dusk": [
+			"char_2015_dusk",
+			"DEFAULT",
+			""
+		],
+		"Everything is a Miracle": [
+			"char_2015_dusk_nian_7",
+			"NIAN",
+			"#272B39"
+		]
+	},
+	"Ling": {
+		"Ling": [
+			"char_2023_ling",
+			"DEFAULT",
+			""
+		]
+	}
+}

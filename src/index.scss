@@ -1,0 +1,20 @@
+:root {
+	line-height: 1.5;
+	font-weight: 400;
+	font-size: 12px;
+
+	color: rgba(255, 255, 255, 0.91);
+	background-color: #232324;
+
+	font-synthesis: none;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-text-size-adjust: 100%;
+}
+
+html,
+body {
+	margin: 0;
+	height: 100%;
+}
