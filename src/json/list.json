@@ -1,4 +1,11 @@
 {
+	"Kal'tsit": {
+		"Remnant": [
+			"char_003_kalts_boc_6",
+			"BLOODLINE_OF_COMBAT",
+			"#3752E1"
+		]
+	},
 	"W": {
 		"W": [
 			"char_113_cqbw",
@@ -9,6 +16,13 @@
 			"char_113_cqbw_epoque_7",
 			"EPOQUE",
 			"#868E96"
+		]
+	},
+	"Muelsyse": {
+		"Muelsyse": [
+			"char_249_mlyss",
+			"DEFAULT",
+			""
 		]
 	},
 	"Phantom": {
@@ -44,6 +58,13 @@
 			"#C6C3E1"
 		]
 	},
+	"Mizuki": {
+		"Summer Feast": [
+			"char_437_mizuki_sale_7",
+			"TEST_COLLECTION_2022",
+			"#C366D9"
+		]
+	},
 	"Passenger": {
 		"Dream in a Moment": [
 			"char_472_pasngr_epoque_17",
@@ -68,6 +89,11 @@
 			"char_1013_chen2",
 			"DEFAULT",
 			""
+		],
+		"Ten Thousand Mountains": [
+			"char_1013_chen2_boc_6",
+			"BLOODLINE_OF_COMBAT",
+			"#B82D2A"
 		]
 	},
 	"Nearl the Radiant Knight": {
@@ -87,6 +113,11 @@
 			"char_1023_ghost2",
 			"DEFAULT",
 			""
+		],
+		"Born as One": [
+			"char_1023_ghost2_boc_6",
+			"BLOODLINE_OF_COMBAT",
+			"#B71F46"
 		]
 	},
 	"Gavial the Invincible": {
@@ -132,6 +163,20 @@
 			"char_2023_ling",
 			"DEFAULT",
 			""
+		]
+	},
+	"Chongyue": {
+		"Chongyue": [
+			"char_2024_chyue",
+			"DEFAULT",
+			""
+		]
+	},
+	"Pozëmka": {
+		"Snowy Plains in Words": [
+			"char_4055_bgsnow_wild_7",
+			"VITAFIELD",
+			"#3A92D9"
 		]
 	}
 }

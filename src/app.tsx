@@ -6,7 +6,7 @@ import style from "./app.module.scss";
 
 import list from "./json/list.json";
 
-type Locale = "KR" | "EN";
+type Locale = "KR" | "EN" | "CN";
 
 type SkinData = [id: string, collection: string, color: string];
 type SkinStructure = Record<string, Record<string, SkinData>>;
@@ -26,7 +26,12 @@ export function App () {
 
 	const [localeData, setLocaleData] = useState<Record<string, string> | null>(null);
 
-	const locales: Locale[] = ["KR", "EN"];
+	const locales: Locale[] = ["KR", "EN", "CN"];
+	const localeDisplay: Record<Locale, string> = {
+		KR: "한국어",
+		EN: "EN",
+		CN: "中文",
+	};
 
 	const loc = useCallback((key: string) => {
 		return localeData && (key in localeData) ? localeData[key] : key;
@@ -67,11 +72,11 @@ export function App () {
 
 				{ locales.map(loc =>
 					locale === loc
-						? <span class={ style.Link }>{ loc }</span>
+						? <span class={ style.Link }>{ localeDisplay[loc] || loc }</span>
 						: <a class={ style.Link } href="#" onClick={ e => {
 							e.preventDefault();
 							setLocale(loc);
-						} }>{ loc }</a>
+						} }>{ localeDisplay[loc] || loc }</a>
 				) }
 			</div>
 
@@ -101,6 +106,12 @@ export function App () {
 				<a href="https://github.com/WolfgangKurz/Arknights-L2D" target="_blank" rel="noreferrer noopener nofollow">
 					Github
 				</a>
+				・
+				All rights of the resources belong to <a
+					href="https://ak.hypergryph.com/"
+					target="_blank"
+					rel="noreferrer noopener nofollow"
+				>Hypergryph</a>.
 			</div>
 		</div>
 	</div>;
