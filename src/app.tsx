@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useState } from "preact/hooks";
 
-import SpineRenderer from "./spine";
+import IllustPlayer from "./IllustPlayer";
 
 import style from "./app.module.scss";
 
@@ -21,7 +21,7 @@ Object.keys(skinData).forEach(g => {
 });
 
 export function App () {
-	const [model, setModel] = useState<SkinData | null>(null);
+	const [model, setModel] = useState<SkinData | null>(skinMap.char_113_cqbw); //(null);
 	const [locale, setLocale] = useState<Locale>("KR");
 
 	const [localeData, setLocaleData] = useState<Record<string, string> | null>(null);
@@ -60,10 +60,13 @@ export function App () {
 	return <div class={ style.Root }>
 		<div class={ style.Page }>
 			<div class={ style.Toolbox }>
-				<select onChange={ e => {
-					const k = e.currentTarget.value;
-					setModel(skinMap[k]);
-				} }>
+				<select
+					value={ model ? model[0] : undefined }
+					onChange={ e => {
+						const k = e.currentTarget.value;
+						setModel(skinMap[k]);
+					} }
+				>
 					<option value="" disabled selected>{ loc("# Select skin to view") }</option>
 					{ Object.keys(skinData).map(g => <optgroup label={ loc(g) }>
 						{ Object.keys(skinData[g]).map(k => <option value={ skinData[g][k][0] }>{ loc(k) }</option>) }
@@ -83,7 +86,11 @@ export function App () {
 			<div class={ style.Container }>
 				{ model ?
 					<>
-						<SpineRenderer uid={ model[0] } />
+						<IllustPlayer
+							key="illust-player"
+							uid={ `dyn_illust_${model[0]}` }
+							pathPrefix={ `/models/${model[0]}/` }
+						/>
 						<div
 							key={ `collection-${model[1]}` }
 							class={ style.Collection }

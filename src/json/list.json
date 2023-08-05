@@ -46,6 +46,13 @@
 			"#79D0FF"
 		]
 	},
+	"Goldenglow": {
+		"Summer Flowers FA394": [
+			"char_377_gdglow_summer_12",
+			"CORAL_COAST",
+			"#FF9FAD"
+		]
+	},
 	"Rosmontis": {
 		"Rosmontis": [
 			"char_391_rosmon",
@@ -108,6 +115,13 @@
 			"#80ACA6"
 		]
 	},
+	"Eyjafjalla the Hvít Aska": {
+		"Eyjafjalla the Hvít Aska": [
+			"char_1016_agoat2",
+			"DEFAULT",
+			""
+		]
+	},
 	"Specter the Unchained": {
 		"Specter the Unchained": [
 			"char_1023_ghost2",
@@ -125,6 +139,11 @@
 			"char_1026_gvial2",
 			"DEFAULT",
 			""
+		],
+		"Casual Vacation HD26": [
+			"char_1026_gvial2_summer_12",
+			"CORAL_COAST",
+			"#75B5FF"
 		]
 	},
 	"Texas the Omertosa": {

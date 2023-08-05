@@ -50,8 +50,10 @@
 		"node_modules"
 	],
 	"ts-node": {
+		"esm": true,
 		"compilerOptions": {
-			"module": "commonjs",
+			"module": "ESNext",
+			"moduleResolution": "node",
 			"types": ["node"]
 		}
 	}
